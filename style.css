@@ -31,7 +31,6 @@ body{
 }
 
 .logo-text h1{
-
     font-size:25px;
 
 }
@@ -44,10 +43,16 @@ body{
 }
 .icon-text p{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .main{
     background-color: white;
     height:100vh;
+}
+.svg{
+    .icon-text: margin-top;
+    display: flex;
+    margin-bottom: auto;
+    flex
 }
