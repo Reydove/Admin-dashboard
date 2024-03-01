@@ -32,6 +32,7 @@ body{
 
 .logo-text h1{
     font-size:25px;
+    margin-left: 10px;
 
 }
 .icon-text{
@@ -42,17 +43,34 @@ body{
     margin: 10px 40px;
 }
 .icon-text p{
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 14px;
 }
+
+.list-items-bottom{
+    margin-top: 50px;
+}
+
+
 
 .main{
     background-color: white;
     height:100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
 }
-.svg{
-    .icon-text: margin-top;
-    display: flex;
-    margin-bottom: auto;
-    flex
+
+.header{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.navbar{
+
+}
+
+.welcome{
+    
 }
