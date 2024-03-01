@@ -67,10 +67,56 @@ body{
 
 }
 
-.navbar{
+.navbar, .left{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0px 15px;
+    
+
+}
+.form-input{
+    width:500px;
+    background-color:#d4d4d4;
+    border-radius:10px ;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.avatarNavbar, .avatarwelcome{
+    margin:0 20px;
 
 }
 
+
 .welcome{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 20px;
     
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     /* Add some margin for spacing */
+    margin-left: 500px;
+}
+
+.btn {
+    background-color: #0ea5e9;
+    width: 70px;
+    height: 35px; /* Fix the typo 'heigha' to 'height' */
+    margin-right: 10px; /* Add some margin between buttons */
+    color: white;
+    border: 1px solid #0ea5e9;
+    border-radius: 10px;
+}
+
+.content{
+    background-color:#d4d4d4;
 }
