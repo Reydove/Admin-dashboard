@@ -120,6 +120,11 @@ body{
 .content{
     background-color:#d4d4d4;
     display: grid;
-    grid-template-columns: 70% 30%; 
+    grid-template-columns: 50% 50%; 
+
+}
+.cards{
+     display: grid;
+     grid-template-columns: 50% 50%;
 
 }
