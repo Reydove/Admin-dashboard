@@ -169,3 +169,15 @@ h4{
 p{
     margin-top: 10px;
 }
+
+.ann-trend{
+    display:grid;
+    grid-template-rows:50% 50%;
+}
+
+.ann-card, .trend-card{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
